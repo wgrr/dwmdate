@@ -63,6 +63,7 @@ main(void)
 		XFlush(dpy);
 		nanosleep(&sleeptime, NULL);
 	}
+	/* unreachable */
 
 	XCloseDisplay(dpy);
 	return 0;
