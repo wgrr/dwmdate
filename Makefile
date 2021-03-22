@@ -1,7 +1,7 @@
 SRC = dwmdate.c
 OBJ = $(SRC:.c=.o)
 
-CFLAGS = -Wall -Werror -Wextra -std=c99 -pedantic -O3 -march=native -mtune=native 
+CFLAGS = -Wall -Werror -Wextra -std=c99 -pedantic -O3 -march=native -mtune=native -flto
 LDFLAGS = -flto
 
 PREFIX = /usr/local
